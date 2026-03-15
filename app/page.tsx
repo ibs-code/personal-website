@@ -1,23 +1,24 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="flex flex-col gap-10">
       {/* Avatar + Name */}
       <div className="flex items-center gap-6">
-        <div className="w-20 h-20 rounded-full bg-stone-300 flex items-center justify-center shrink-0">
-          <svg
-            className="w-12 h-12 text-stone-500"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
-          </svg>
+        <div className="w-20 h-20 rounded-full overflow-hidden shrink-0">
+          <Image
+            src="/4562E2DD-1440-4525-9C2E-D95C45610F3C_1_105_c.jpeg"
+            alt="Ibrahim Urooj Saeed"
+            width={80}
+            height={80}
+            className="object-cover w-full h-full"
+          />
         </div>
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-stone-900">
-            Your Name
+            Ibrahim Urooj Saeed
           </h1>
-          <p className="text-sm text-stone-500 mt-0.5">Designer &amp; Developer</p>
+          <p className="text-sm text-stone-500 mt-0.5">product lead, photographer and washed up software engineer</p>
         </div>
       </div>
 
