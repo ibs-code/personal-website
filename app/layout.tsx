@@ -14,8 +14,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Personal Site",
-  description: "Personal website — home, blog, photography, and projects.",
+  title: "Ibrahim Urooj Saeed",
+  description: "Product lead in fintech infrastructure. Photographer. New Yorker.",
+  openGraph: {
+    title: "Ibrahim Urooj Saeed",
+    description: "Product lead in fintech infrastructure. Photographer. New Yorker.",
+    url: "https://ibrahimusaeed.com",
+    siteName: "Ibrahim Urooj Saeed",
+    images: [
+      {
+        url: "https://ibrahimusaeed.com/og-image.jpg",
+        width: 800,
+        height: 800,
+        alt: "Ibrahim Urooj Saeed",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Ibrahim Urooj Saeed",
+    description: "Product lead in fintech infrastructure. Photographer. New Yorker.",
+    images: ["https://ibrahimusaeed.com/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
