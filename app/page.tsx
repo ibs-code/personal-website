@@ -40,10 +40,9 @@ export default function Home() {
         <p className="text-stone-300 leading-relaxed">
           Outside of work, I&apos;m a New Yorker through and through — and somehow
           also someone who picked up skiing in their late 20s and is stubbornly
-          working toward becoming an advanced skier, despite the fact that most
-          people at that level learned before they could tie their shoes. I&apos;m
-          also an avid photographer, always looking for the shot that earns a second
-          look. Oh, and I&apos;m weirdly obsessed with the state of Maine.
+          working toward becoming an advanced skier. I&apos;m also an avid
+          photographer, always looking for the shot that earns a second look. Oh,
+          and I&apos;m weirdly obsessed with the state of Maine.
         </p>
       </section>
 
