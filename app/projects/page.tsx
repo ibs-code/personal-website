@@ -23,25 +23,25 @@ export default function Projects() {
   return (
     <div className="flex flex-col gap-8">
       <div>
-        <h1 className="text-xl font-semibold tracking-tight text-stone-900">Projects</h1>
-        <p className="text-sm text-stone-500 mt-1">Things I&apos;ve built.</p>
+        <h1 className="text-xl font-semibold tracking-tight text-stone-100">Projects</h1>
+        <p className="text-sm text-stone-400 mt-1">Things I&apos;ve built.</p>
       </div>
 
-      <hr className="border-stone-200" />
+      <hr className="border-stone-800" />
 
       <div className="flex flex-col gap-4">
         {projects.map((project) => (
           <div
             key={project.title}
-            className="flex flex-col gap-2 p-5 rounded-xl border border-stone-200 hover:border-stone-300 hover:bg-stone-100/50 transition-colors"
+            className="flex flex-col gap-2 p-5 rounded-xl border border-stone-800 hover:border-stone-700 hover:bg-stone-900/50 transition-colors"
           >
             <div className="flex items-start justify-between gap-4">
-              <h2 className="text-base font-medium text-stone-900">{project.title}</h2>
-              <span className="text-xs text-stone-400 whitespace-nowrap mt-0.5">
+              <h2 className="text-base font-medium text-stone-100">{project.title}</h2>
+              <span className="text-xs text-stone-500 whitespace-nowrap mt-0.5">
                 {project.stack}
               </span>
             </div>
-            <p className="text-sm text-stone-600 leading-relaxed">{project.description}</p>
+            <p className="text-sm text-stone-400 leading-relaxed">{project.description}</p>
           </div>
         ))}
       </div>
