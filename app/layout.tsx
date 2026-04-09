@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ibrahim Urooj Saeed",
   description: "Product lead in fintech infrastructure. Photographer. New Yorker.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: "Ibrahim Urooj Saeed",
     description: "Product lead in fintech infrastructure. Photographer. New Yorker.",
